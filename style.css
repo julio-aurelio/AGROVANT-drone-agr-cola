@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+   height: 100%;
+   width: 100%;
+}
+header{
+    width: 100%;
+    height: 65px;
+    border: 1px;
+    background-color: #080808;
+    display: flex;
+    justify-content: space-between;
+}
+.empresa{
+    height: 100%;
+    width: 15%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFFDFD;
+    font-family: Inter;
+    font-weight: 800;
+    font-style: Bold;
+}
+header ul{
+    width: 700px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFFDFD;
+    font-size: 16px;
+    list-style: none;
+    margin-left: 5px;
+}
+header ul li{
+    height:19px;
+    width:141px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    font-family: Inter;
+    font-weight: 800;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+header ul button{
+    height: 40px;
+    width: 89px;
+    border-radius: 10px;
+    border: 1px solid #02542D;
+    background-color: #14AE5C;
+    color: #FFFDFD;
+    font-family: Inter;
+    font-style: Bold;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: #080808ec;
+    background-image: url(assets/img/logo.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    height: 100vh;
+    width: 80%;
+    border: 5px solid red;
+}
